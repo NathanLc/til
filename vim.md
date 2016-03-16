@@ -1,12 +1,12 @@
 ## vim
 
- - [Close html tags](### Close html tags)
- - [List registers](### List registers)
- - [Manipulating windows](### Manipulating windows)
- - [Move the cursor before a selected character](### Move the cursor before a selected character)
- - [Paste from insert mode](### Paste from insert mode)
- - [Print the output of an external command](### Print the output of an external command)
- - [Show the path of the current file](### Show the path of the current file)
+ - [Close html tags](#close-html-tags)
+ - [List registers](#list-registers)
+ - [Manipulating windows](#manipulating-windows)
+ - [Move the cursor before a selected character](#move-the-cursor-before-a-selected-character)
+ - [Paste from insert mode](#paste-from-insert-mode)
+ - [Print the output of an external command](#print-the-output-of-an-external-command)
+ - [Show the path of the current file](#show-the-path-of-the-current-file)
 
 ---
 

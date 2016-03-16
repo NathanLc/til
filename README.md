@@ -2,4 +2,4 @@
 
 Collection of "Today I learned".
 
- * [Vim](./vim.md)
+ - [Vim](./vim.md)

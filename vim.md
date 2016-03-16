@@ -1,18 +1,18 @@
-# vim
+## vim
 
-## Move the cursor before a selected character
+### Move the cursor before a selected character
 You can use `t` to move like you would use `f` but instead of going to the said character, the cursor will be put just before.
 Likewise, you can use `T` and `F` to navigate backwards.
 You can also repeat the last movement by pressing `;`.
 
-## Print the output of an external command
+### Print the output of an external command
 In normal mode, you can print the output of an external command (i.e. bash) by entering the following:
 
 ```
 :r !<external_cmd>
 ```
 
-## Show the path of the current file
+### Show the path of the current file
 In normal mode, enter the following to get the full path of the current file in the buffer:
 
 ```

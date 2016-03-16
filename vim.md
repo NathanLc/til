@@ -1,5 +1,12 @@
 ## vim
 
+### Close html tags
+While in insert mode, to close automatically a matching html tag just start typing `</` and then:
+```
+<C-x><C-o>
+```
+<C-x> will put vim in completion mode and <C-o> serves as the omni completion.
+
 ### Move the cursor before a selected character
 You can use `t` to move like you would use `f` but instead of going to the said character, the cursor will be put just before.
 Likewise, you can use `T` and `F` to navigate backwards.

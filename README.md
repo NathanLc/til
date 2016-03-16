@@ -1,5 +1,5 @@
 # til
 
-Collection of "Today I learned".
+Collection of "Today I Learned".
 
  - [Vim](./vim.md)

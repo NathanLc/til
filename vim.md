@@ -8,6 +8,7 @@
  - [Move the cursor before a selected character](#move-the-cursor-before-a-selected-character)
  - [Paste from insert mode](#paste-from-insert-mode)
  - [Print the output of an external command](#print-the-output-of-an-external-command)
+ - [Reselect last visual selections](#reselect-last-visual-selection)
  - [Show the path of the current file](#show-the-path-of-the-current-file)
  - [Yank matches of a pattern to a register](#yank-matches-of-a-patter-to-a-register)
 
@@ -56,6 +57,7 @@ You can also use the _windows command mode_ with navigation keys to change a win
 - `Ctrl-w + J` - Move the current window to the "very bottom"
 - `Ctrl-w + K` - Move the current window to the "very top"
 
+That can also enable you to switch from vertical to horizontal split
 Check out `:help window-moving` for more information
 
 
@@ -77,6 +79,9 @@ In normal mode, you can print the output of an external command (i.e. bash) by e
 ```
 :r !<external_cmd>
 ```
+
+### Reselect last visual selections
+In normal mode, by pressing `gv`, you can reselect the last previous visual selection.
 
 
 ### Show the path of the current file

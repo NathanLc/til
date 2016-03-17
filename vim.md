@@ -1,5 +1,6 @@
 ## vim
 
+ - [Append text to a register](#append-text-to-a-register)
  - [Close html tags](#close-html-tags)
  - [Hide search hilightning](#hide-search-highlightning)
  - [List registers](#list-registers)
@@ -8,8 +9,18 @@
  - [Paste from insert mode](#paste-from-insert-mode)
  - [Print the output of an external command](#print-the-output-of-an-external-command)
  - [Show the path of the current file](#show-the-path-of-the-current-file)
+ - [Yank matches of a pattern to a register](#yank-matches-of-a-patter-to-a-register)
 
 ---
+
+### Append text to a register
+You can append text to the register `a` for instance by doing so:
+
+```
+"Ay
+```
+
+Using the capital letter instead of the lower case letter will append text
 
 ### Close html tags
 While in insert mode, to close automatically a matching html tag just start typing `</` and then:
@@ -80,3 +91,12 @@ If you want to show the path of the file relative to the current directory:
 ```
 :echo @%
 ```
+
+### Yank matches of a pattern to a register
+You can yank every text matching a pattern to the register `a` by using the command `:g`:
+
+```
+:g/<pattern>/yank A
+```
+
+The trick is to use capital A to append to register a.

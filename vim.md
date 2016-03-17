@@ -1,6 +1,7 @@
 ## vim
 
  - [Close html tags](#close-html-tags)
+ - [Hide search hilightning](#hide-search-highlightning)
  - [List registers](#list-registers)
  - [Manipulating windows](#manipulating-windows)
  - [Move the cursor before a selected character](#move-the-cursor-before-a-selected-character)
@@ -17,6 +18,13 @@ Ctrl-x Ctrl-o
 ```
 `Ctrl-x` will put vim in completion mode and `Ctrl-o` serves as the omni completion.
 
+
+### Hide search highlightning
+You can hide the text highlight temporarily by entering `:noh` in normal mode.
+Pressing `n` or looking for another pattern (or something of that flavour) will automatically start again the highlight.
+If you want to disable it completely: `set nohlsearch`.
+
+
 ### List registers
 It can be useful sometimes after deleting or yanking text to check what can be pasted.
 You can do so in normal mode by entering:
@@ -24,6 +32,7 @@ You can do so in normal mode by entering:
 ```
 :reg
 ```
+
 
 ### Manipulating windows
 `Ctrl-w` puts vim into _windows command mode_, allowing the following modifiers:
@@ -38,15 +47,18 @@ You can also use the _windows command mode_ with navigation keys to change a win
 
 Check out `:help window-moving` for more information
 
+
 ### Move the cursor before a selected character
 You can use `t` to move like you would use `f` but instead of going to the said character, the cursor will be put just before.
 Likewise, you can use `T` and `F` to navigate backwards.
 You can also repeat the last movement by pressing `;`.
 
+
 ### Paste from insert mode
 While in insert mode, you can paste text from a register. This can be useful also when entering a command or a search.
 Just type `Ctrl-r + reg` where reg is the register you want to paste from.
 Use `"` to access the lastest yanked text.
+
 
 ### Print the output of an external command
 In normal mode, you can print the output of an external command (i.e. bash) by entering the following:
@@ -54,6 +66,7 @@ In normal mode, you can print the output of an external command (i.e. bash) by e
 ```
 :r !<external_cmd>
 ```
+
 
 ### Show the path of the current file
 In normal mode, enter the following to get the full path of the current file in the buffer:

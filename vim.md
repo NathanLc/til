@@ -2,6 +2,7 @@
 
  - [Append text to a register](#append-text-to-a-register)
  - [Close html tags](#close-html-tags)
+ - [Delete lines not containing a pattern](#delete-lines-not-containing-a-pattern)
  - [Hide search hilightning](#hide-search-highlightning)
  - [List registers](#list-registers)
  - [Manipulating windows](#manipulating-windows)
@@ -29,6 +30,13 @@ While in insert mode, to close automatically a matching html tag just start typi
 Ctrl-x Ctrl-o
 ```
 `Ctrl-x` will put vim in completion mode and `Ctrl-o` serves as the omni completion.
+
+
+### Delete lines not containing a pattern
+To delete lines not containing a pattern, use:
+```
+:g!/<pattern>/d
+```
 
 
 ### Hide search highlightning

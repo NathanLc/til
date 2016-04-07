@@ -11,7 +11,7 @@
  - [Print the output of an external command](#user-content-print-the-output-of-an-external-command)
  - [Reselect last visual selections](#user-content-reselect-last-visual-selection)
  - [Show the path of the current file](#user-content-show-the-path-of-the-current-file)
- - [Yank matches of a pattern to a register](#user-content-yank-matches-of-a-patter-to-a-register)
+ - [Yank matches of a pattern to a register](#user-content-yank-matches-of-a-pattern-to-a-register)
 
 ---
 

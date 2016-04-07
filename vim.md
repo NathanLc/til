@@ -1,17 +1,17 @@
 ## vim
 
- - [Append text to a register](#append-text-to-a-register)
- - [Close html tags](#close-html-tags)
- - [Delete lines not containing a pattern](#delete-lines-not-containing-a-pattern)
- - [Hide search hilightning](#hide-search-highlightning)
- - [List registers](#list-registers)
- - [Manipulating windows](#manipulating-windows)
- - [Move the cursor before a selected character](#move-the-cursor-before-a-selected-character)
- - [Paste from insert mode](#paste-from-insert-mode)
- - [Print the output of an external command](#print-the-output-of-an-external-command)
- - [Reselect last visual selections](#reselect-last-visual-selection)
- - [Show the path of the current file](#show-the-path-of-the-current-file)
- - [Yank matches of a pattern to a register](#yank-matches-of-a-patter-to-a-register)
+ - [Append text to a register](#user-content-append-text-to-a-register)
+ - [Close html tags](#user-content-close-html-tags)
+ - [Delete lines not containing a pattern](#user-content-delete-lines-not-containing-a-pattern)
+ - [Hide search hilightning](#user-content-hide-search-highlightning)
+ - [List registers](#user-content-list-registers)
+ - [Manipulating windows](#user-content-manipulating-windows)
+ - [Move the cursor before a selected character](#user-content-move-the-cursor-before-a-selected-character)
+ - [Paste from insert mode](#user-content-paste-from-insert-mode)
+ - [Print the output of an external command](#user-content-print-the-output-of-an-external-command)
+ - [Reselect last visual selections](#user-content-reselect-last-visual-selection)
+ - [Show the path of the current file](#user-content-show-the-path-of-the-current-file)
+ - [Yank matches of a pattern to a register](#user-content-yank-matches-of-a-patter-to-a-register)
 
 ---
 

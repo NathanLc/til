@@ -1,10 +1,10 @@
 ## Unix/Bash
 
- - [Check that a package is installed (Ubuntu)](#check-that-a-package-is-installed-(ubuntu))
- - [Delete word behind cursor in cli](#delete-word-behind-cursor-in-cli)
- - [Display line numbers in less](#display-line-numbers-in-less)
- - [Find folders not matching patterns and delete them](#find-folders-not-matching-patterns-and-delete-them)
- - [Open less without line wrap](#open-less-without-line-wrap)
+ - [Check that a package is installed (Ubuntu)](#user-content-check-that-a-package-is-installed-(ubuntu))
+ - [Delete word behind cursor in cli](#user-content-delete-word-behind-cursor-in-cli)
+ - [Display line numbers in less](#user-content-display-line-numbers-in-less)
+ - [Find folders not matching patterns and delete them](#user-content-find-folders-not-matching-patterns-and-delete-them)
+ - [Open less without line wrap](#user-content-open-less-without-line-wrap)
 
 ---
 

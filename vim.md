@@ -2,8 +2,10 @@
 
  - [Append text to a register](#user-content-append-text-to-a-register)
  - [Close html tags](#user-content-close-html-tags)
+ - [Delete blank lines](#user-content-delete-blank-lines)
  - [Delete lines not containing a pattern](#user-content-delete-lines-not-containing-a-pattern)
  - [Hide search hilightning](#user-content-hide-search-highlightning)
+ - [Highlight blank characters in the beginning of a line](#user-content-highlight-blank-characters-in-the-beginning-of-a-line)
  - [List registers](#user-content-list-registers)
  - [Manipulating windows](#user-content-manipulating-windows)
  - [Move the cursor before a selected character](#user-content-move-the-cursor-before-a-selected-character)
@@ -32,6 +34,14 @@ Ctrl-x Ctrl-o
 `Ctrl-x` will put vim in completion mode and `Ctrl-o` serves as the omni completion.
 
 
+### Delete blank lines
+Delete blank lines with the `g` command:
+
+```
+:g/^$/d
+```
+
+
 ### Delete lines not containing a pattern
 To delete lines not containing a pattern, use:
 ```
@@ -43,6 +53,14 @@ To delete lines not containing a pattern, use:
 You can hide the text highlight temporarily by entering `:noh` in normal mode.
 Pressing `n` or looking for another pattern (or something of that flavour) will automatically start again the highlight.
 If you want to disable it completely: `set nohlsearch`.
+
+
+### Highlight blank characters in the beginning of a line
+Highlight blank characters at the beginning of a line. This could also be used in a regex.
+
+```
+/^\s\+
+```
 
 
 ### List registers

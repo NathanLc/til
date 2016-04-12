@@ -13,10 +13,12 @@
  - [Paste from insert mode](#user-content-paste-from-insert-mode)
  - [Print the output of an external command](#user-content-print-the-output-of-an-external-command)
  - [Reselect last visual selections](#user-content-reselect-last-visual-selection)
+ - [Run macro on selected lines](#user-content-run-macro-on-selected-lines)
  - [Show the path of the current file](#user-content-show-the-path-of-the-current-file)
  - [Yank matches of a pattern to a register](#user-content-yank-matches-of-a-pattern-to-a-register)
 
 ---
+
 
 ### Append text to a register
 You can append text to the register `a` for instance by doing so:
@@ -26,6 +28,7 @@ You can append text to the register `a` for instance by doing so:
 ```
 
 Using the capital letter instead of the lower case letter will append text
+
 
 ### Close html tags
 While in insert mode, to close automatically a matching html tag just start typing `</` and then:
@@ -114,6 +117,16 @@ In normal mode, you can print the output of an external command (i.e. bash) by e
 
 ### Reselect last visual selections
 In normal mode, by pressing `gv`, you can reselect the last previous visual selection.
+
+
+### Run macro on selected lines
+You can select several lines in visual mode and then apply a macro to them.
+
+```
+:'<,'>normal @<register>
+```
+
+You can also use the `%` selector if you want to apply the macro on everyline.
 
 
 ### Show the path of the current file

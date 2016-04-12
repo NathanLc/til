@@ -127,6 +127,12 @@ You can select several lines in visual mode and then apply a macro to them.
 ```
 
 You can also use the `%` selector if you want to apply the macro on everyline.
+You can also run the macro on all lines matching a pattern with the g command.
+
+
+```
+:g/<pattern>/normal @<register>
+```
 
 
 ### Show the path of the current file

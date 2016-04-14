@@ -10,6 +10,7 @@
  - [List registers](#user-content-list-registers)
  - [Manipulating windows](#user-content-manipulating-windows)
  - [Move the cursor before a selected character](#user-content-move-the-cursor-before-a-selected-character)
+ - [Move to next fold](#user-content-move-to-next-fold)
  - [Paste from insert mode](#user-content-paste-from-insert-mode)
  - [Print the output of an external command](#user-content-print-the-output-of-an-external-command)
  - [Reselect last visual selections](#user-content-reselect-last-visual-selection)
@@ -100,6 +101,10 @@ Check out `:help window-moving` for more information
 You can use `t` to move like you would use `f` but instead of going to the said character, the cursor will be put just before.
 Likewise, you can use `T` and `F` to navigate backwards.
 You can also repeat the last movement by pressing `;`.
+
+
+### Move to next fold
+You can use `zj` to go to the next fold. Likewise, use `zk` to go to the previous one.
 
 
 ### Paste from insert mode

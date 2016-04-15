@@ -4,6 +4,7 @@
  - [Delete word behind cursor in cli](#user-content-delete-word-behind-cursor-in-cli)
  - [Display line numbers in less](#user-content-display-line-numbers-in-less)
  - [Find folders not matching patterns and delete them](#user-content-find-folders-not-matching-patterns-and-delete-them)
+ - [Go to beginning of line in bash](#user-content-go-to-beginning-of-line-in-bash)
  - [Open less without line wrap](#user-content-open-less-without-line-wrap)
 
 ---
@@ -30,6 +31,10 @@ find . -maxdepth 1 -type d ! -iname "<pattern1>" ! -iname "<pattern2>" -exec rm 
 ```
 
 Pass the -maxdepth 1 option to the find command to restrict the search and delete to the current folder
+
+
+### Go to beginning of line in bash
+In bash, press `Ctrl-a` to go to the beginning of the line. Likewise, `Ctrl-e` will carry you to the end of the line.
 
 
 ### Open less without line wrap

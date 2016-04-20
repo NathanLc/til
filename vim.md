@@ -6,6 +6,7 @@
  - [Delete lines not containing a pattern](#user-content-delete-lines-not-containing-a-pattern)
  - [Hide search hilightning](#user-content-hide-search-highlightning)
  - [Highlight blank characters in the beginning of a line](#user-content-highlight-blank-characters-in-the-beginning-of-a-line)
+ - [Increment or decrement number](#user-content-increment-or-decrement-number)
  - [Insert new line in substitute command](#user-content-insert-new-line-in-substitute-command)
  - [List registers](#user-content-list-registers)
  - [Manipulating windows](#user-content-manipulating-windows)
@@ -66,6 +67,10 @@ Highlight blank characters at the beginning of a line. This could also be used i
 ```
 /^\s\+
 ```
+
+
+### Increment or decrement number
+In normal mode, hover a number and then press `Ctrl-a` to increment the number or `Ctrl-x` to decrement it.
 
 
 ### Insert new line in substitute command

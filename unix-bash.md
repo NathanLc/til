@@ -6,6 +6,7 @@
  - [Find folders not matching patterns and delete them](#user-content-find-folders-not-matching-patterns-and-delete-them)
  - [Go to beginning of line in bash](#user-content-go-to-beginning-of-line-in-bash)
  - [Open less without line wrap](#user-content-open-less-without-line-wrap)
+ - [Switch input mode in bash](#user-content-switch-input-mode-in-bash)
 
 ---
 
@@ -43,4 +44,18 @@ You can also pipe less to the output of a command:
 
 ```
 find . -name "<pattern>" -type f | xargs egrep -in "<otherpattern>" | less -S
+```
+
+
+### Switch input mode in bash
+To switch input mode in bash (emacs or vi), enter the following command:
+
+```
+set -o <emacs/vi>
+```
+
+You can set the following option to set the default editing mode, either in your .bashrc or .inputrc for every cli program:
+
+```
+set editing-mode <emacs/vi>
 ```

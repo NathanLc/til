@@ -5,6 +5,7 @@
  - [Display line numbers in less](#user-content-display-line-numbers-in-less)
  - [Find folders not matching patterns and delete them](#user-content-find-folders-not-matching-patterns-and-delete-them)
  - [Go to beginning of line in bash](#user-content-go-to-beginning-of-line-in-bash)
+ - [List packages](#user-content-list-packages)
  - [Open less without line wrap](#user-content-open-less-without-line-wrap)
  - [Switch input mode in bash](#user-content-switch-input-mode-in-bash)
 
@@ -36,6 +37,14 @@ Pass the -maxdepth 1 option to the find command to restrict the search and delet
 
 ### Go to beginning of line in bash
 In bash, press `Ctrl-a` to go to the beginning of the line. Likewise, `Ctrl-e` will carry you to the end of the line.
+
+
+### List packages
+Display the list of packages installed or removed:
+
+```
+dpkg --get-selections
+```
 
 
 ### Open less without line wrap

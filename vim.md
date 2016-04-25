@@ -8,6 +8,7 @@
  - [Highlight blank characters in the beginning of a line](#user-content-highlight-blank-characters-in-the-beginning-of-a-line)
  - [Increment or decrement number](#user-content-increment-or-decrement-number)
  - [Insert new line in substitute command](#user-content-insert-new-line-in-substitute-command)
+ - [Jump to previous position](#user-content-jump-to-previous-position)
  - [List registers](#user-content-list-registers)
  - [Manipulating windows](#user-content-manipulating-windows)
  - [Move the cursor before a selected character](#user-content-move-the-cursor-before-a-selected-character)
@@ -71,6 +72,11 @@ Highlight blank characters at the beginning of a line. This could also be used i
 
 ### Increment or decrement number
 In normal mode, hover a number and then press `Ctrl-a` to increment the number or `Ctrl-x` to decrement it.
+
+
+### Jump to previous position
+In normal mode, press `Ctrl-o` to jump to previous position. This can jump to a previous file.
+Likewise, press `Ctrl-i` to jump the other way.
 
 
 ### Insert new line in substitute command

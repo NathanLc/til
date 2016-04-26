@@ -6,6 +6,7 @@
  - [Delete lines not containing a pattern](#user-content-delete-lines-not-containing-a-pattern)
  - [Hide search hilightning](#user-content-hide-search-highlightning)
  - [Highlight blank characters in the beginning of a line](#user-content-highlight-blank-characters-in-the-beginning-of-a-line)
+ - [Go to first non blank character in line](#user-content-go-to-first-non-blank-character-in-line)
  - [Increment or decrement number](#user-content-increment-or-decrement-number)
  - [Insert new line in substitute command](#user-content-insert-new-line-in-substitute-command)
  - [Jump to previous position](#user-content-jump-to-previous-position)
@@ -60,6 +61,10 @@ To delete lines not containing a pattern, use:
 You can hide the text highlight temporarily by entering `:noh` in normal mode.
 Pressing `n` or looking for another pattern (or something of that flavour) will automatically start again the highlight.
 If you want to disable it completely: `set nohlsearch`.
+
+
+### Go to first non blank character in line
+Instead of just going to the beginning of the line, you can go to the first non blank character of the line with `_`.
 
 
 ### Highlight blank characters in the beginning of a line

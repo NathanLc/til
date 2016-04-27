@@ -7,6 +7,7 @@
  - [Go to beginning of line in bash](#user-content-go-to-beginning-of-line-in-bash)
  - [List packages](#user-content-list-packages)
  - [Open less without line wrap](#user-content-open-less-without-line-wrap)
+ - [Undo in bash](#user-content-undo-in-bash)
  - [Switch input mode in bash](#user-content-switch-input-mode-in-bash)
 
 ---
@@ -54,6 +55,10 @@ You can also pipe less to the output of a command:
 ```
 find . -name "<pattern>" -type f | xargs egrep -in "<otherpattern>" | less -S
 ```
+
+### Undo in bash
+When typing commands in bash, you can undo changes with `Ctrl-_`.
+Undoing also works after a `Ctrl-w` or a `Ctrl-u`.
 
 
 ### Switch input mode in bash

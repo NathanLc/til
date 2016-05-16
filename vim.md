@@ -7,6 +7,7 @@
  - [Hide search hilightning](#user-content-hide-search-highlightning)
  - [Highlight blank characters in the beginning of a line](#user-content-highlight-blank-characters-in-the-beginning-of-a-line)
  - [Go to first non blank character in line](#user-content-go-to-first-non-blank-character-in-line)
+ - [Go to tag](#user-content-go-to-tag)
  - [Increment or decrement number](#user-content-increment-or-decrement-number)
  - [Insert new line in substitute command](#user-content-insert-new-line-in-substitute-command)
  - [Jump to previous position](#user-content-jump-to-previous-position)
@@ -72,6 +73,25 @@ Highlight blank characters at the beginning of a line. This could also be used i
 
 ```
 /^\s\+
+```
+
+
+### Go to tag
+If tags are supported. You can start vim by opening file containing a tag by using the `-t` option.
+When vim is opened, you can also open a new buffer jumping to the <tag> with the following:
+
+```
+:tag <tag>
+```
+
+You can also split the window with `:stag` instead.
+If there are different matches to the <tag> and you want to choose from the matches, use `:tselect`.
+Instead of searching with a tag name, you can use a pattern with all the previous commands.
+If not using `:tselect`, the first match of the pattern will be the selected match.
+For instance:
+
+```
+:stag /<partial tag name>
 ```
 
 

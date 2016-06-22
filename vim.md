@@ -11,6 +11,7 @@
  - [Increment or decrement number](#user-content-increment-or-decrement-number)
  - [Insert new line in substitute command](#user-content-insert-new-line-in-substitute-command)
  - [Jump to previous position](#user-content-jump-to-previous-position)
+ - [Jump to start or end of visual seleciton](#user-content-jump-to-start-or-end-of-visual-selection)
  - [List registers](#user-content-list-registers)
  - [Manipulating windows](#user-content-manipulating-windows)
  - [Move the cursor before a selected character](#user-content-move-the-cursor-before-a-selected-character)
@@ -102,6 +103,10 @@ In normal mode, hover a number and then press `Ctrl-a` to increment the number o
 ### Jump to previous position
 In normal mode, press `Ctrl-o` to jump to previous position. This can jump to a previous file.
 Likewise, press `Ctrl-i` to jump the other way.
+
+
+### Jump to start or end of visual seleciton
+In visual mode, press `o` to jump to the start or end of the visual selection.
 
 
 ### Insert new line in substitute command
